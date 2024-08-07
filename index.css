@@ -1,0 +1,15 @@
+body {
+  background-color: #C5E9F5;
+  font-family: "poppins", sans-serif;
+}
+
+section p {
+  font-size: 13px;
+}
+section .btn-1 {
+  background-color: #0F4382;
+  color: white;
+}
+section .btn-2 {
+  background-color: #C5E9F5;
+}/*# sourceMappingURL=index.css.map */

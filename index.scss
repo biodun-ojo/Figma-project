@@ -1,0 +1,24 @@
+@mixin svg-colour {
+    background-color: #0F4382;
+    ;
+}
+
+body {
+    background-color: #C5E9F5;
+    font-family: 'poppins', sans-serif;
+}
+
+section {
+    p {
+        font-size: 13px;
+    }
+
+    .btn-1 {
+        @include svg-colour;
+        color: white;
+    }
+
+    .btn-2 {
+        background-color: #C5E9F5;
+    }
+}
