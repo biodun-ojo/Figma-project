@@ -9,8 +9,9 @@ body {
 }
 
 section {
-    h4 {
+    h1 {
         color: #184162;
+        font-family: "Quattrocento Sans", sans-serif;
     }
 
     p {
@@ -25,5 +26,30 @@ section {
 
     .btn-2 {
         background-color: #C5E9F5;
+        color: #0F4382;
+    }
+}
+
+@media (min-width: 767px) {
+    body {
+        height: 100vh;
+        background: radial-gradient(circle, #E5FAFF, #98BAC6, #6191a1);
+        background-repeat: no-repeat;
+    }
+
+    nav {
+        li {
+            font-family: "Josefin Slab", serif;
+            color: #123D6D;
+            transition: text-decoration 1s ease-in;
+    
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .btn-2 {
+        border: solid 1px;
     }
 }
