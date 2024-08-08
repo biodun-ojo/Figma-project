@@ -3,8 +3,12 @@ body {
   font-family: "poppins", sans-serif;
 }
 
+section h4 {
+  color: #184162;
+}
 section p {
   font-size: 13px;
+  color: #124473;
 }
 section .btn-1 {
   background-color: #0F4382;
