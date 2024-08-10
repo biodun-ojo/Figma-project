@@ -29,6 +29,7 @@ section .btn-2 {
   nav li {
     font-family: "Josefin Slab", serif;
     color: #123D6D;
+    cursor: pointer;
     -webkit-transition: -webkit-text-decoration 1s ease-in;
     transition: -webkit-text-decoration 1s ease-in;
     transition: text-decoration 1s ease-in;

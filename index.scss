@@ -41,6 +41,7 @@ section {
         li {
             font-family: "Josefin Slab", serif;
             color: #123D6D;
+            cursor: pointer;
             transition: text-decoration 1s ease-in;
     
             &:hover {
