@@ -15,11 +15,12 @@ section {
 
   p {
     font-size: 13px;
-    color: #124473
+    color: #124473;
   }
 
   .btn-1 {
     @include svg-colour;
+    
     color: white;
   }
 
@@ -53,4 +54,3 @@ section {
     border: solid 1px;
   }
 }
-
