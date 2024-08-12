@@ -7,14 +7,17 @@ section h1 {
   color: #184162;
   font-family: "Quattrocento Sans", sans-serif;
 }
+
 section p {
   font-size: 13px;
   color: #124473;
 }
+
 section .btn-1 {
   background-color: #0f4382;
   color: white;
 }
+
 section .btn-2 {
   background-color: #c5e9f5;
   color: #0f4382;
@@ -26,6 +29,7 @@ section .btn-2 {
     background: radial-gradient(circle, #e5faff, #98bac6, #6191a1);
     background-repeat: no-repeat;
   }
+
   nav li {
     font-family: "Josefin Slab", serif;
     color: #123d6d;
@@ -35,10 +39,14 @@ section .btn-2 {
     transition: text-decoration 1s ease-in;
     transition: text-decoration 1s ease-in, -webkit-text-decoration 1s ease-in;
   }
+
   nav li:hover {
     text-decoration: underline;
   }
+
   .btn-2 {
     border: solid 1px;
   }
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
