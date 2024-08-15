@@ -4,10 +4,58 @@ body {
   color: white;
 }
 
-nav {
-  font-family: "poppins", sans-serif;
+nav .logo {
+  width: 90px;
 }
-nav a {
+nav div button {
   color: white;
-  text-decoration: none;
+  border-color: white;
+  background-color: #111111;
+}
+
+.section1 {
+  margin-top: 50px;
+}
+.section1 p {
+  color: #CECECE;
+  font-size: 16px;
+}
+.section1 div {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.section1 div button:nth-child(1) {
+  background: -webkit-gradient(linear, right top, left top, from(#673AB7), to(#4B03CD));
+  background: linear-gradient(270deg, #673AB7, #4B03CD);
+  color: white;
+  width: 200px;
+}
+.section1 div button:nth-child(2) {
+  background-color: #424242;
+  border: #828282;
+  color: white;
+  width: 200px;
+}
+
+.section2 {
+  margin-top: 100px;
+}
+
+.section3 {
+  margin-top: 100px;
+}
+.section3 p img {
+  width: 22px;
+  height: 22px;
+}
+
+.section4 {
+  margin-top: 100px;
+}
+.section4 .div12 {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 30px;
 }/*# sourceMappingURL=index.css.map */
