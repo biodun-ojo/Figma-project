@@ -79,4 +79,39 @@ nav div button {
 .section4 .div12 p {
   color: #C1CFD8;
   font-size: 16px;
+}
+
+.section5 {
+  padding-top: 100px;
+}
+.section5 .exdiv {
+  width: 190px;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 1px solid #38353D;
+  margin-top: 30px;
+}
+.section5 .exdiv img {
+  width: 40px;
+  height: 40px;
+}
+.section5 .exdiv p {
+  margin: 0 !important;
+}
+.section5 .exdiv:nth-child(1) {
+  background-color: #673AB7;
+}
+.section5 .exdiv2 {
+  margin-top: 30px;
+}
+.section5 .exdiv2 img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #38353D;
+  border-radius: 50%;
+  overflow: visible;
+}
+.section5 .exdiv2 div p {
+  font-size: 14px;
+  color: #C1CFD8;
 }/*# sourceMappingURL=index.css.map */

@@ -1,6 +1,4 @@
-@mixin svg-colour {
-  
-}
+@mixin svg-colour {}
 
 body {
   background-color: #111111;
@@ -13,7 +11,7 @@ nav {
     width: 90px;
   }
 
-  div{
+  div {
     button {
       color: white;
       border-color: white;
@@ -99,6 +97,46 @@ nav {
 }
 
 .section5 {
-  
-}
+  padding-top: 100px;
 
+  .exdiv {
+    width: 190px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid #38353D;
+    margin-top: 30px;
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+
+    p {
+      margin: 0 !important;
+    }
+
+  }
+
+  .exdiv:nth-child(1) {
+    background-color: #673AB7;
+  }
+
+  .exdiv2 {
+    margin-top: 30px;
+
+    img {
+      width: 60px;
+      height: 60px;
+      border: 1px solid #38353D;
+      border-radius: 50%;
+      overflow: visible; 
+    }
+
+    div {
+      p {
+        font-size: 14px;
+        color: #C1CFD8;
+      }
+    }
+  }
+}
