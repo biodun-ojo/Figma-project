@@ -70,7 +70,35 @@ nav {
   .div12 {
     width: 300px;
     margin: 0 auto;
-    padding-top: 30px;
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid #38353D;
+    border-radius: 20px;
+    background-color: #0d011f;
+    background-image: url(assets/images/backgrounds/div12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    img {
+      padding: 10px;
+      background-color: #673AB7;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+
+    h6 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #C1CFD8;
+      font-size: 16px;
+    }
   }
+}
+
+.section5 {
+  
 }
 
