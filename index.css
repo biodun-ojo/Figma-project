@@ -138,6 +138,10 @@ nav div button {
   border: 1px solid #38353D;
   border-radius: 15px;
 }
+.section6 .bigthree .big1 button {
+  background-color: rgba(69, 27, 143, 0.7490196078);
+  color: white;
+}
 .section6 .bigthree .big2 {
   border: 1px solid #38353D;
   border-radius: 15px;
