@@ -136,10 +136,17 @@ nav div button {
 }
 .section6 .bigthree .big1 {
   border: 1px solid #38353D;
+  border-radius: 15px;
 }
 .section6 .bigthree .big2 {
   border: 1px solid #38353D;
+  border-radius: 15px;
 }
 .section6 .bigthree .big3 {
   border: 1px solid #38353D;
+  border-radius: 15px;
+}
+
+.section7 {
+  margin-top: 90px;
 }/*# sourceMappingURL=index.css.map */
