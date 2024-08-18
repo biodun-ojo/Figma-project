@@ -121,6 +121,10 @@ nav {
     background-color: #673AB7;
   }
 
+  .bcse {
+    width: fit-content;
+  }
+
   .exdiv2 {
     margin-top: 30px;
 
@@ -142,6 +146,8 @@ nav {
 }
 
 .section6 {
+  margin-top: 90px;
+
   .tick {
     width: 22px;
     height: 22px;
@@ -152,15 +158,15 @@ nav {
     margin: 0 auto;
 
     .big1 {
-      
+      border: 1px solid #38353D;
     }
 
     .big2 {
-
+      border: 1px solid #38353D;
     }
 
     .big3 {
-
+      border: 1px solid #38353D;
     }
   }
 }
