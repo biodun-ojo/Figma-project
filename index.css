@@ -15,6 +15,10 @@ nav div button {
 
 .section1 {
   margin-top: 50px;
+  background-image: url(assets/images/backgrounds/Mask\ group.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .section1 p {
   color: #CECECE;
@@ -37,6 +41,9 @@ nav div button {
   border: #828282;
   color: white;
   width: 200px;
+}
+.section1 .bobo {
+  background: radial-gradient(circle, rgba(111, 48, 216, 0.1529411765), rgba(38, 24, 80, 0));
 }
 
 .section2 {
@@ -139,18 +146,78 @@ nav div button {
   border-radius: 15px;
 }
 .section6 .bigthree .big1 button {
-  background-color: rgba(69, 27, 143, 0.7490196078);
-  color: white;
+  background-color: linear-gradient(270deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5019607843));
 }
 .section6 .bigthree .big2 {
   border: 1px solid #38353D;
   border-radius: 15px;
+  background: linear-gradient(135deg, rgba(236, 200, 200, 0.2), rgba(0, 0, 0, 0.1215686275), rgba(255, 255, 255, 0.0196078431));
+}
+.section6 .bigthree .big2 button {
+  background: -webkit-gradient(linear, right top, left top, from(#3A00A1), to(#9763F4));
+  background: linear-gradient(270deg, #3A00A1, #9763F4);
+  color: white;
 }
 .section6 .bigthree .big3 {
   border: 1px solid #38353D;
   border-radius: 15px;
 }
+.section6 .bigthree .big3 button {
+  background-color: linear-gradient(270deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5019607843));
+}
 
 .section7 {
   margin-top: 90px;
+}
+.section7 div {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid #38353D;
+  border-radius: 15px;
+  background: linear-gradient(135deg, rgba(236, 200, 200, 0.2), rgba(0, 0, 0, 0.1215686275), rgba(255, 255, 255, 0.0196078431));
+}
+.section7 div p {
+  border-bottom: 1px solid #38353D;
+  margin-bottom: 0;
+}
+
+footer {
+  margin-top: 90px;
+  background: radial-gradient(circle, rgba(111, 48, 216, 0.1529411765), rgba(38, 24, 80, 0), rgba(38, 24, 80, 0) 100%);
+}
+footer .fd1 div button:nth-child(1) {
+  background: -webkit-gradient(linear, left top, right top, from(#673AB7), to(#4B03CD));
+  background: linear-gradient(90deg, #673AB7, #4B03CD);
+  color: white;
+}
+footer .fd1 div button:nth-child(2) {
+  color: white;
+}
+footer section {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+footer section div:nth-child(1) p {
+  color: #C0C0C0;
+}
+footer section div:nth-child(2) {
+  margin-top: 50px;
+}
+footer section div:nth-child(2) a {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+footer section div:nth-child(3) {
+  margin-top: 50px;
+}
+footer section div:nth-child(3) a {
+  color: #C0C0C0;
+}
+footer section div:nth-child(3) div {
+  margin-top: 10px;
 }/*# sourceMappingURL=index.css.map */
