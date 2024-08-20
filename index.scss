@@ -29,7 +29,7 @@ nav {
 
   p {
     color: #CECECE;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   div {
@@ -43,8 +43,8 @@ nav {
     }
 
     button:nth-child(2) {
-      background-color: #424242;
-      border: #828282;
+      background-color: #00000033;
+      border: 1px solid #828282;
       color: white;
       width: 200px;
     }
@@ -61,6 +61,14 @@ nav {
 
 .section3 {
   margin-top: 100px;
+
+  .s3head {
+    margin: 0 auto;
+    width: fit-content;
+    border: 1px solid;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #ECC8C833, #0000001F, #FFFFFF05);
+  }
 
   p {
     img {
@@ -91,6 +99,8 @@ nav {
       background-color: #673AB7;
       border-radius: 10px;
       margin-bottom: 40px;
+      height: 82px;
+      width: 82px;
     }
 
     h6 {
@@ -126,7 +136,7 @@ nav {
   }
 
   .exdiv:nth-child(1) {
-    background-color: #673AB7;
+    background: linear-gradient(135deg, #3A00A1, #9763F4);
   }
 
   .bcse {
@@ -170,7 +180,8 @@ nav {
       border-radius: 15px;
 
       button {
-        background-color: linear-gradient(270deg, #FFFFFF66, #FFFFFF80);
+        color: white;
+        background: linear-gradient(135deg, #0000001F, #ECC8C833, #FFFFFF05);
       }
     }
 
@@ -190,7 +201,8 @@ nav {
       border-radius: 15px;
 
       button {
-        background-color: linear-gradient(270deg, #FFFFFF66, #FFFFFF80);
+        color: white;
+        background: linear-gradient(135deg, #0000001F, #ECC8C833, #FFFFFF05);
       }
     }
   }

@@ -22,7 +22,7 @@ nav div button {
 }
 .section1 p {
   color: #CECECE;
-  font-size: 16px;
+  font-size: 14px;
 }
 .section1 div {
   margin: 0 auto;
@@ -37,8 +37,8 @@ nav div button {
   width: 200px;
 }
 .section1 div button:nth-child(2) {
-  background-color: #424242;
-  border: #828282;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #828282;
   color: white;
   width: 200px;
 }
@@ -52,6 +52,15 @@ nav div button {
 
 .section3 {
   margin-top: 100px;
+}
+.section3 .s3head {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid;
+  border-radius: 50px;
+  background: linear-gradient(135deg, rgba(236, 200, 200, 0.2), rgba(0, 0, 0, 0.1215686275), rgba(255, 255, 255, 0.0196078431));
 }
 .section3 p img {
   width: 22px;
@@ -79,6 +88,8 @@ nav div button {
   background-color: #673AB7;
   border-radius: 10px;
   margin-bottom: 40px;
+  height: 82px;
+  width: 82px;
 }
 .section4 .div12 h6 {
   margin-bottom: 10px;
@@ -106,7 +117,7 @@ nav div button {
   margin: 0 !important;
 }
 .section5 .exdiv:nth-child(1) {
-  background-color: #673AB7;
+  background: linear-gradient(135deg, #3A00A1, #9763F4);
 }
 .section5 .bcse {
   width: -webkit-fit-content;
@@ -146,7 +157,8 @@ nav div button {
   border-radius: 15px;
 }
 .section6 .bigthree .big1 button {
-  background-color: linear-gradient(270deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5019607843));
+  color: white;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.1215686275), rgba(236, 200, 200, 0.2), rgba(255, 255, 255, 0.0196078431));
 }
 .section6 .bigthree .big2 {
   border: 1px solid #38353D;
@@ -163,7 +175,8 @@ nav div button {
   border-radius: 15px;
 }
 .section6 .bigthree .big3 button {
-  background-color: linear-gradient(270deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5019607843));
+  color: white;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.1215686275), rgba(236, 200, 200, 0.2), rgba(255, 255, 255, 0.0196078431));
 }
 
 .section7 {
