@@ -240,5 +240,13 @@ footer section div:nth-child(3) div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 50px;
+  }
+  .body12 .div12 {
+    margin-top: 0;
   }
 }/*# sourceMappingURL=index.css.map */

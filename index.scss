@@ -281,5 +281,12 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-  }  
+    width: fit-content;
+    margin: 0 auto;
+    gap: 50px;
+
+    .div12 {
+      margin-top: 0;
+    }
+  }
 }
