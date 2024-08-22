@@ -31,8 +31,8 @@ nav div button {
   width: fit-content;
 }
 .section1 div button:nth-child(1) {
-  background: -webkit-gradient(linear, right top, left top, from(#673AB7), to(#4B03CD));
-  background: linear-gradient(270deg, #673AB7, #4B03CD);
+  background: -webkit-gradient(linear, right top, left top, from(#673ab7), to(#4b03cd));
+  background: linear-gradient(270deg, #673ab7, #4b03cd);
   color: white;
   width: 200px;
 }
@@ -75,7 +75,7 @@ nav div button {
   margin: 0 auto;
   margin-top: 30px;
   padding: 30px;
-  border: 1px solid #38353D;
+  border: 1px solid #38353d;
   border-radius: 20px;
   background-color: #0d011f;
   background-image: url(assets/images/backgrounds/div12.png);
@@ -85,7 +85,7 @@ nav div button {
 }
 .section4 .div12 img {
   padding: 10px;
-  background-color: #673AB7;
+  background-color: #673ab7;
   border-radius: 10px;
   margin-bottom: 40px;
   height: 82px;
@@ -95,7 +95,7 @@ nav div button {
   margin-bottom: 10px;
 }
 .section4 .div12 p {
-  color: #C1CFD8;
+  color: #c1cfd8;
   font-size: 16px;
 }
 
@@ -106,7 +106,7 @@ nav div button {
   width: 190px;
   margin: 0 auto;
   border-radius: 15px;
-  border: 1px solid #38353D;
+  border: 1px solid #38353d;
   margin-top: 30px;
 }
 .section5 .exdiv img {
@@ -117,7 +117,7 @@ nav div button {
   margin: 0 !important;
 }
 .section5 .exdiv:nth-child(1) {
-  background: linear-gradient(135deg, #3A00A1, #9763F4);
+  background: linear-gradient(135deg, #3a00a1, #9763f4);
 }
 .section5 .bcse {
   width: -webkit-fit-content;
@@ -130,13 +130,13 @@ nav div button {
 .section5 .exdiv2 img {
   width: 60px;
   height: 60px;
-  border: 1px solid #38353D;
+  border: 1px solid #38353d;
   border-radius: 50%;
   overflow: visible;
 }
 .section5 .exdiv2 div p {
   font-size: 14px;
-  color: #C1CFD8;
+  color: #c1cfd8;
 }
 
 .section6 {
@@ -153,7 +153,7 @@ nav div button {
   margin: 0 auto;
 }
 .section6 .bigthree .big1 {
-  border: 1px solid #38353D;
+  border: 1px solid #38353d;
   border-radius: 15px;
 }
 .section6 .bigthree .big1 button {
@@ -166,12 +166,12 @@ nav div button {
   background: linear-gradient(135deg, rgba(236, 200, 200, 0.2), rgba(0, 0, 0, 0.1215686275), rgba(255, 255, 255, 0.0196078431));
 }
 .section6 .bigthree .big2 button {
-  background: -webkit-gradient(linear, right top, left top, from(#3A00A1), to(#9763F4));
-  background: linear-gradient(270deg, #3A00A1, #9763F4);
+  background: -webkit-gradient(linear, right top, left top, from(#3a00a1), to(#9763f4));
+  background: linear-gradient(270deg, #3a00a1, #9763f4);
   color: white;
 }
 .section6 .bigthree .big3 {
-  border: 1px solid #38353D;
+  border: 1px solid #38353d;
   border-radius: 15px;
 }
 .section6 .bigthree .big3 button {
@@ -187,12 +187,12 @@ nav div button {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  border: 1px solid #38353D;
+  border: 1px solid #38353d;
   border-radius: 15px;
   background: linear-gradient(135deg, rgba(236, 200, 200, 0.2), rgba(0, 0, 0, 0.1215686275), rgba(255, 255, 255, 0.0196078431));
 }
 .section7 div p {
-  border-bottom: 1px solid #38353D;
+  border-bottom: 1px solid #38353d;
   margin-bottom: 0;
 }
 
@@ -201,8 +201,8 @@ footer {
   background: radial-gradient(circle, rgba(111, 48, 216, 0.1529411765), rgba(38, 24, 80, 0), rgba(38, 24, 80, 0) 100%);
 }
 footer .fd1 div button:nth-child(1) {
-  background: -webkit-gradient(linear, left top, right top, from(#673AB7), to(#4B03CD));
-  background: linear-gradient(90deg, #673AB7, #4B03CD);
+  background: -webkit-gradient(linear, left top, right top, from(#673ab7), to(#4b03cd));
+  background: linear-gradient(90deg, #673ab7, #4b03cd);
   color: white;
 }
 footer .fd1 div button:nth-child(2) {
@@ -216,21 +216,29 @@ footer section {
   margin-top: 90px;
 }
 footer section div:nth-child(1) p {
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
 footer section div:nth-child(2) {
   margin-top: 50px;
 }
 footer section div:nth-child(2) a {
-  color: #C0C0C0;
+  color: #c0c0c0;
   text-decoration: none;
 }
 footer section div:nth-child(3) {
   margin-top: 50px;
 }
 footer section div:nth-child(3) a {
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
 footer section div:nth-child(3) div {
   margin-top: 10px;
+}
+
+@media (min-width: 767px) {
+  .body12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
 }/*# sourceMappingURL=index.css.map */
