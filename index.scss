@@ -1,7 +1,7 @@
 @mixin svg-colour {}
 
 body {
-  background-color: #111111;
+  background-color: #111;
   font-family: 'poppins', sans-serif;
   color: white;
 }
@@ -15,7 +15,7 @@ nav {
     button {
       color: white;
       border-color: white;
-      background-color: #111111;
+      background-color: #111;
     }
   }
 }
@@ -28,7 +28,7 @@ nav {
   background-position: center;
 
   p {
-    color: #CECECE;
+    color: #cecece;
     font-size: 14px;
   }
 
@@ -43,7 +43,7 @@ nav {
     }
 
     button:nth-child(2) {
-      background-color: #00000033;
+      background-color: #0003;
       border: 1px solid #828282;
       color: white;
       width: 200px;
@@ -76,9 +76,26 @@ nav {
   }
 
   p {
-    img {
+    .mark {
       width: 22px;
       height: 22px;
+    }
+  }
+}
+
+.section7 {
+  margin-top: 90px;
+
+  div {
+    margin: 0 auto;
+    width: fit-content;
+    border: 1px solid #38353d;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #ecc8c833, #0000001f, #ffffff05);
+
+    p {
+      border-bottom: 1px solid #38353d;
+      margin-bottom: 0;
     }
   }
 }
@@ -99,7 +116,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
 
-    img {
+    .d12g {
       padding: 10px;
       background-color: #673ab7;
       border-radius: 10px;
@@ -129,7 +146,7 @@ nav {
     border: 1px solid #38353d;
     margin-top: 30px;
 
-    img {
+    .s5exg {
       width: 40px;
       height: 40px;
     }
@@ -151,7 +168,7 @@ nav {
   .exdiv2 {
     margin-top: 30px;
 
-    img {
+    .s5exg2 {
       width: 60px;
       height: 60px;
       border: 1px solid #38353d;
@@ -206,7 +223,7 @@ nav {
     }
 
     .big2 {
-      border: 1px solid #38353D;
+      border: 1px solid #38353d;
       border-radius: 15px;
       background: linear-gradient(135deg, #ecc8c833, #0000001f, #ffffff05);
 
@@ -228,7 +245,7 @@ nav {
   }
 }
 
-.section7 {
+/* .section7 {
   margin-top: 90px;
 
   div {
@@ -243,7 +260,7 @@ nav {
       margin-bottom: 0;
     }
   }
-}
+} */
 
 footer {
   margin-top: 90px;
@@ -309,7 +326,8 @@ footer {
       margin: 0 auto;
     }
 
-    h1, p {
+    h1, 
+    p {
       width: 560px;
     }
   }
@@ -345,7 +363,6 @@ footer {
       .gg {
         width: 50%;
       }
-
     }
   }
 

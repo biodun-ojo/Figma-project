@@ -1,5 +1,5 @@
 body {
-  background-color: #111111;
+  background-color: #111;
   font-family: "poppins", sans-serif;
   color: white;
 }
@@ -10,7 +10,7 @@ nav .logo {
 nav div button {
   color: white;
   border-color: white;
-  background-color: #111111;
+  background-color: #111;
 }
 
 .section1 {
@@ -21,7 +21,7 @@ nav div button {
   background-position: center;
 }
 .section1 p {
-  color: #CECECE;
+  color: #cecece;
   font-size: 14px;
 }
 .section1 div {
@@ -66,9 +66,26 @@ nav div button {
   border-radius: 50px;
   background: linear-gradient(135deg, rgba(236, 200, 200, 0.2), rgba(0, 0, 0, 0.1215686275), rgba(255, 255, 255, 0.0196078431));
 }
-.section3 p img {
+.section3 p .mark {
   width: 22px;
   height: 22px;
+}
+
+.section7 {
+  margin-top: 90px;
+}
+.section7 div {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid #38353d;
+  border-radius: 15px;
+  background: linear-gradient(135deg, rgba(236, 200, 200, 0.2), rgba(0, 0, 0, 0.1215686275), rgba(255, 255, 255, 0.0196078431));
+}
+.section7 div p {
+  border-bottom: 1px solid #38353d;
+  margin-bottom: 0;
 }
 
 .section4 {
@@ -87,7 +104,7 @@ nav div button {
   background-repeat: no-repeat;
   background-position: center;
 }
-.section4 .div12 img {
+.section4 .div12 .d12g {
   padding: 10px;
   background-color: #673ab7;
   border-radius: 10px;
@@ -113,7 +130,7 @@ nav div button {
   border: 1px solid #38353d;
   margin-top: 30px;
 }
-.section5 .exdiv img {
+.section5 .exdiv .s5exg {
   width: 40px;
   height: 40px;
 }
@@ -131,7 +148,7 @@ nav div button {
 .section5 .exdiv2 {
   margin-top: 30px;
 }
-.section5 .exdiv2 img {
+.section5 .exdiv2 .s5exg2 {
   width: 60px;
   height: 60px;
   border: 1px solid #38353d;
@@ -176,7 +193,7 @@ nav div button {
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.1215686275), rgba(236, 200, 200, 0.2), rgba(255, 255, 255, 0.0196078431));
 }
 .section6 .bigthree .big2 {
-  border: 1px solid #38353D;
+  border: 1px solid #38353d;
   border-radius: 15px;
   background: linear-gradient(135deg, rgba(236, 200, 200, 0.2), rgba(0, 0, 0, 0.1215686275), rgba(255, 255, 255, 0.0196078431));
 }
@@ -194,23 +211,22 @@ nav div button {
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.1215686275), rgba(236, 200, 200, 0.2), rgba(255, 255, 255, 0.0196078431));
 }
 
-.section7 {
+/* .section7 {
   margin-top: 90px;
-}
-.section7 div {
-  margin: 0 auto;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  border: 1px solid #38353d;
-  border-radius: 15px;
-  background: linear-gradient(135deg, rgba(236, 200, 200, 0.2), rgba(0, 0, 0, 0.1215686275), rgba(255, 255, 255, 0.0196078431));
-}
-.section7 div p {
-  border-bottom: 1px solid #38353d;
-  margin-bottom: 0;
-}
 
+  div {
+    margin: 0 auto;
+    width: fit-content;
+    border: 1px solid #38353d;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #ecc8c833, #0000001f, #ffffff05);
+
+    p {
+      border-bottom: 1px solid #38353d;
+      margin-bottom: 0;
+    }
+  }
+} */
 footer {
   margin-top: 90px;
   background: radial-gradient(circle, rgba(111, 48, 216, 0.1529411765), rgba(38, 24, 80, 0), rgba(38, 24, 80, 0) 100%);
@@ -259,7 +275,8 @@ footer section div:nth-child(3) div {
     width: 75%;
     margin: 0 auto;
   }
-  .bobo h1, .bobo p {
+  .bobo h1,
+  .bobo p {
     width: 560px;
   }
   .section2 h4 {
