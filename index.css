@@ -309,6 +309,7 @@ footer section div:nth-child(3) div {
     }
   }
 } */
+
 /* footer {
   margin-top: 90px;
   background: radial-gradient(circle, #6f30d827, #26185000, rgba(38, 24, 80, 0) 100%);
@@ -365,7 +366,7 @@ footer section div:nth-child(3) div {
     margin: 0 auto;
   }
 
-  .bobo>* {
+  .bobo > * {
     width: 75%;
     margin: 0 auto;
   }
