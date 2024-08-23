@@ -146,6 +146,17 @@ nav div button {
 .section6 {
   margin-top: 90px;
 }
+.section6 .s6head .the2 {
+  border: 1px solid #38353d;
+}
+.section6 .s6head .the2 div:nth-child(1) {
+  border: 1px solid #38353d;
+  background-color: #4a46fc;
+}
+.section6 .s6head .red25 {
+  -webkit-transform: translate(-28px, -15px) rotate(45deg);
+          transform: translate(-28px, -15px) rotate(45deg);
+}
 .section6 .tick {
   width: 22px;
   height: 22px;
@@ -262,13 +273,17 @@ footer section div:nth-child(3) div {
     margin: 0 auto;
   }
   .section3 .s3small {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+  .section3 .s3small .h4p {
+    text-align: left;
+  }
+  .section3 .s3small .h4p h4 {
+    font-size: 40px;
   }
   .section3 .s3small .gg {
     width: 50%;
@@ -296,6 +311,9 @@ footer section div:nth-child(3) div {
     max-width: 920px;
     margin: 0 auto;
     gap: 10px;
+  }
+  .fd2 div:nth-child(1) {
+    max-width: 300px;
   }
 }
 @media (min-width: 1023px) {

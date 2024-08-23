@@ -171,6 +171,21 @@ nav {
 .section6 {
   margin-top: 90px;
 
+  .s6head {
+    .the2 {
+      border: 1px solid #38353d;
+
+      div:nth-child(1) {
+        border: 1px solid #38353d;
+        background-color: #4a46fc;
+      }
+    }
+
+    .red25 {
+      transform: translate(-28px, -15px) rotate(45deg);
+    }
+  }
+
   .tick {
     width: 22px;
     height: 22px;
@@ -313,11 +328,19 @@ footer {
     margin: 0 auto;
 
     .s3small {
-      width: fit-content;
+      max-width: 1000px;
       margin: 0 auto;
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 20px;
+
+      .h4p {
+        text-align: left;
+
+        h4 {
+          font-size: 40px;
+        }
+      }
 
       .gg {
         width: 50%;
@@ -352,6 +375,13 @@ footer {
     max-width: 920px;
     margin: 0 auto;
     gap: 10px;
+  }
+
+  //footer
+  .fd2 {
+    div:nth-child(1) {
+      max-width: 300px;
+    }
   }
 }
 
